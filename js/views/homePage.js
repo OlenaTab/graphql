@@ -171,7 +171,7 @@ class homePage extends HTMLElement {
           <button id="logout-btn" class="btn btn-lg w-25 mx-auto btn-primary btn-block">Log Out</button>
       </div>
 
-      <div class="position-relative overflow-hidden p-3 p-md-1 m-md-3 text-center bg-dark">
+      <div class="position-relative overflow-hidden p-3 p-md-1 m-md-3 text-center bg-secondary">
           
               
                   <p class="lead text-white">Audits Ratio</p>
@@ -186,7 +186,7 @@ class homePage extends HTMLElement {
                     data.user[0].totalUp / 1000
                   )} kB</text>
 
-                  <rect x="50" y="75" width="220" height="10" fill="#353A35"/>
+              
 
                   <!-- Received bar -->
                   <rect x="0" y="105" width="${Math.round(
