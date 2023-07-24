@@ -49,7 +49,7 @@ class logIn extends HTMLElement {
       </div>
       <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
       <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-      <p class="mt-5 mb-3 text-muted">&copy; 2022-2023</p>
+      <p class="mt-5 mb-3 text-muted">&copy; 2023</p>
     </form>
         `;
   }
